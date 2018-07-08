@@ -40,7 +40,7 @@ public class Main_Sign_In_Student extends AppCompatActivity implements GoogleApi
 
     private SignInButton SignIn;
     private GoogleSignInClient mGoogleSignInClient;
-    private static final int REQ_CODE=901;
+    private static final int REQ_CODE=9001;
     private static final String TAG = "GoogleActivity";
     private FirebaseAuth mAuth;
     private Switch isEnlarged;
@@ -134,7 +134,7 @@ public class Main_Sign_In_Student extends AppCompatActivity implements GoogleApi
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
-                            //Snackbar.make(findViewById(R.id.student_login), "Authentication Failed.", Snackbar.LENGTH_SHORT).show();
+                            Snackbar.make(findViewById(R.id.student_login), "Authentication Failed.", Snackbar.LENGTH_SHORT).show();
                             openStudActivity(null);
                         }
 
@@ -150,10 +150,5 @@ public class Main_Sign_In_Student extends AppCompatActivity implements GoogleApi
         if (user != null) {
             startActivity(new Intent(this,Student_Login_Activity.class));
         }
-    }
-
-    public void GotoStuPortal(View v){
-        Intent i = new Intent(Main_Sign_In_Student.this,Student_Login_Activity.class);
-        startActivity(i);
     }
 }

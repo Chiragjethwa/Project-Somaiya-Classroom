@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main_Sign_In_Student"
-    android:background="#ffff">
+    android:background="@drawable/gradient_color">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,20 +24,10 @@
             android:layout_marginTop="50dp"
             android:text="Sign In via SVV or G+"
             android:textAlignment="center"
-            android:textColor="#01579b"
+            android:textColor="#404040"
             android:textSize="30sp"
             android:textStyle="bold"
             app:fontFamily="@font/roboto_slab" />
-
-
-        <Button
-            android:id="@+id/GoTo_stu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="150dp"
-            android:onClick="GotoStuPortal"
-            android:text="GoTo"
-            android:textSize="30sp" />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -70,8 +60,7 @@
             android:layout_marginRight="20dp"
             android:layout_marginTop="100dp"
             android:textSize="17sp"
-            app:fontFamily="@font/roboto_slab"
-            android:background="#80deea"/>
+            app:fontFamily="@font/roboto_slab" />
 
         <LinearLayout
             android:layout_width="400dp"

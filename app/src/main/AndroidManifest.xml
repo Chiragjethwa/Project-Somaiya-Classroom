@@ -12,10 +12,9 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/kjsce"
-        android:label="Somaiya Classroom"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/kjsce"
         android:supportsRtl="true"
-        android:hardwareAccelerated="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -25,16 +24,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".HomeActivity" />
-        <activity android:name=".Teacher_Login_Activity"
-            android:label="Welcome to Teacher Portal"/>
+        <activity android:name=".Teacher_Login_Activity" />
         <activity android:name=".Main_Sign_In" />
         <activity android:name=".Forgot_Password_Activity" />
         <activity android:name=".Main_Sign_In_Student" />
-        <activity android:name=".Student_Login_Activity"
-            android:label="Welcome to Student Portal"
-            />
+        <activity android:name=".Student_Login_Activity" />
         <activity android:name=".courseMaterial" />
-        <activity android:name=".Syllabus"/>
+        <activity android:name=".Syllabus" />
         <activity android:name=".PreviousPapers" />
         <activity android:name=".Addevent" />
         <activity android:name=".Easysolution" />
@@ -43,9 +39,7 @@
         <activity android:name=".lstppr_act" />
         <activity android:name=".course_act" />
         <activity android:name=".UploadFile" />
-
-
-
+        <activity android:name=".Magnify" />
 
         <meta-data
             android:name="preloaded_fonts"

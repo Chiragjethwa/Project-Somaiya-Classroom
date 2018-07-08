@@ -11,7 +11,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     tools:context=".HomeActivity"
-    android:background="#ffff">
+    android:background="@drawable/gradient_color">
 
     <Button
         android:id="@+id/stu_btn"

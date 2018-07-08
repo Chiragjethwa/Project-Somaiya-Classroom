@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Syllabus"
-    android:background="#ffff">
+    android:background="@drawable/gradient_color">
 
     <TextView
         android:id="@+id/editText"
